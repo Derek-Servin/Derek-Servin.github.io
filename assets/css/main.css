@@ -3218,7 +3218,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 100%;
+		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
@@ -3226,7 +3226,6 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
-		box-sizing: border-box;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3263,9 +3262,6 @@ input, select, textarea {
 		}
 
 		#nav ul {
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
 			margin: 0;
 			padding: 0;
 			list-style: none;
@@ -3306,7 +3302,6 @@ input, select, textarea {
 					}
 
 		#nav.alt {
-			flex-direction: column;
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
@@ -3326,25 +3321,15 @@ input, select, textarea {
 
 				
 		/* Responsive styles */
-		@media screen and (max-width: 737px) {
+		@media screen and (max-width: 480px) {
 			#nav {
 				max-width: 400px; /* Set max width to 400px */
-				width: 100%; /* Ensure it takes up full width */
+				width: 320px; 
 			}
 			#nav ul li {
 				flex: 1 0 50%; /* Make each item take 50% of the width */
 				margin: 5px 0; /* Adjust margin for spacing */
 				text-align: center; /* Center align text */
-			}
-		}
-		
-		@media screen and (max-width: 400px) {
-			#nav {
-				display: none;
-			}
-		
-			#nav + #main {
-				padding-top: 0;
 			}
 		}
 	
@@ -3780,7 +3765,7 @@ input, select, textarea {
 
 /* Wrapper */
 
-#wrapper {
+	#wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;

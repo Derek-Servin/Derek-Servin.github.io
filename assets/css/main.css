@@ -33,53 +33,6 @@ body {
 	line-height: 1;
 }
 
-/* Add the following CSS to your existing stylesheet */
-
-/* Basic styles for the navigation */
-#nav {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-#nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap; /* Allow items to wrap into multiple rows */
-    justify-content: center; /* Center the items horizontally */
-}
-
-#nav li {
-    margin: 0 10px;
-}
-
-#nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-}
-
-#nav a.active {
-    background: #555;
-}
-
-/* Responsive styles */
-@media (max-width: 737px) {
-    #nav ul {
-        flex-wrap: wrap; /* Allow items to wrap into multiple rows */
-    }
-    #nav li {
-        width: 50%; /* Make each item take 50% of the width */
-        text-align: center; /* Center align text */
-        margin: 5px 0; /* Adjust margin for spacing */
-    }
-}
-
-
-
 ol, ul {
 	list-style: none;
 }
@@ -3366,7 +3319,7 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 400px) {
 
 			#nav {
 				display: none;

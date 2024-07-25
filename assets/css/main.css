@@ -33,21 +33,13 @@ body {
 	line-height: 1;
 }
 
-/* NAVIGATION */
+/* Add the following CSS to your existing stylesheet */
 
+/* Basic styles for the navigation */
 #nav {
     background: #333;
     color: #fff;
     padding: 10px 0;
-}
-
-#nav .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 #nav ul {
@@ -55,6 +47,8 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+    justify-content: center; /* Center the items horizontally */
 }
 
 #nav li {
@@ -72,36 +66,18 @@ body {
     background: #555;
 }
 
-/* Hamburger styles */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.hamburger span {
-    height: 3px;
-    width: 25px;
-    background: #fff;
-    margin: 4px 0;
-    transition: 0.4s;
-}
-
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 737px) {
     #nav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: #333;
+        flex-wrap: wrap; /* Allow items to wrap into multiple rows */
     }
-    #nav ul.active {
-        display: flex;
-    }
-    .hamburger {
-        display: flex;
+    #nav li {
+        width: 50%; /* Make each item take 50% of the width */
+        text-align: center; /* Center align text */
+        margin: 5px 0; /* Adjust margin for spacing */
     }
 }
+
 
 
 ol, ul {

@@ -3319,17 +3319,18 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 400px) {
-
+				
+		/* Responsive styles */
+		@media screen and (max-width: 737px) {
 			#nav {
-				display: none;
+				max-width: 400px; /* Set max width to 400px */
+				width: 100%; /* Ensure it takes up full width */
 			}
-
-				#nav + #main {
-					padding-top: 0;
-				}
-
-		}
+			#nav ul li {
+				flex: 1 0 50%; /* Make each item take 50% of the width */
+				margin: 5px 0; /* Adjust margin for spacing */
+				text-align: center; /* Center align text */
+			}
 
 /* Main */
 

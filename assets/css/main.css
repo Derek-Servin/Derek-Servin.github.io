@@ -3218,7 +3218,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
+		width: 100%;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
@@ -3226,6 +3226,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		box-sizing: border-box;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3262,6 +3263,9 @@ input, select, textarea {
 		}
 
 		#nav ul {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
 			margin: 0;
 			padding: 0;
 			list-style: none;
@@ -3302,6 +3306,7 @@ input, select, textarea {
 					}
 
 		#nav.alt {
+			flex-direction: column;
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
@@ -3330,6 +3335,16 @@ input, select, textarea {
 				flex: 1 0 50%; /* Make each item take 50% of the width */
 				margin: 5px 0; /* Adjust margin for spacing */
 				text-align: center; /* Center align text */
+			}
+		}
+		
+		@media screen and (max-width: 400px) {
+			#nav {
+				display: none;
+			}
+		
+			#nav + #main {
+				padding-top: 0;
 			}
 		}
 	
@@ -3765,25 +3780,23 @@ input, select, textarea {
 
 /* Wrapper */
 
-	#wrapper {
-		width: 64em;
-		max-width: calc(100% - 4em);
-		margin: 0 auto;
-	}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-		@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    #wrapper {
+        max-width: calc(100% - 2em);
+    }
+}
 
-			#wrapper {
-				max-width: calc(100% - 2em);
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			#wrapper {
-				max-width: 100%;
-			}
-
-		}
-	
+@media screen and (max-width: 360px) {
+    #wrapper {
+        max-width: 100%;
+    }
+}

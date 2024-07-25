@@ -3324,13 +3324,17 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 			#nav {
 				max-width: 400px; /* Set max width to 400px */
-				width: 320px; 
+				width: calc(100% + 3em); 
 			}
 			#nav ul li {
 				flex: 1 0 50%; /* Make each item take 50% of the width */
 				margin: 5px 0; /* Adjust margin for spacing */
 				text-align: center; /* Center align text */
 			}
+		}
+
+		#nav + #main {
+			padding-top: 0;
 		}
 	
 

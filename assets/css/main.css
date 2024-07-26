@@ -82,7 +82,7 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 430px) {
 
 		html, body {
 			min-width: 320px;
@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #60bbcb;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #008d9f 15%, #003746 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #006875 15%, #003746 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #006875 15%, #003746 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #006875 15%, #003746 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #0b3e5c;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -234,6 +234,14 @@ input, select, textarea {
 
 		h1 {
 			font-size: 2em;
+		}
+
+	}
+
+	@media screen and (max-width: 440px) {
+
+		h1 {
+			font-size: 1.9em;
 		}
 
 	}
@@ -1824,6 +1832,38 @@ input, select, textarea {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+/* FANCY BUTTON */
+
+input[type="fbutton"],fbutton,
+.fbutton {
+	padding: 17px 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	border: 0;
+	background-color: white;
+	box-shadow: rgba(0, 62, 69, 0.05) 0 0 8px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 15px;
+	transition: all 0.5s ease;
+  }
+  
+  fbutton:hover {
+	letter-spacing: 3px;
+	background-color: hsl(185, 91%, 35%);
+	color: hsl(0, 0%, 100%);
+	box-shadow: rgba(8, 157, 170, 0.919) 0px 7px 29px 0px;
+  }
+  
+  fbutton:active {
+	letter-spacing: 3px;
+	background-color: hsl(185, 91%, 35%);
+	color: hsl(0, 0%, 100%);
+	box-shadow: rgba(8, 157, 170, 0.919) 0px 0px 0px 0px;
+	transform: translateY(10px);
+	transition: 100ms;
+  }
+
 /* Button */
 
 	input[type="submit"],
@@ -1841,7 +1881,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-radius: 8px;
 		border: 0;
-		cursor: pointer;
+		cursor: none;
 		display: inline-block;
 		font-weight: 300;
 		height: 2.75em;
@@ -1924,7 +1964,7 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+		box-shadow: inset 0 0 0 1px rgba(187, 252, 255, 0.35);
 		color: #ffffff !important;
 	}
 
@@ -1933,7 +1973,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgba(0, 50, 67, 0.319);
 		}
 
 		input[type="submit"]:active,
@@ -3226,7 +3266,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
-		overflow: hidden;
+		
 	}
 
 		#nav input, #nav select, #nav textarea {

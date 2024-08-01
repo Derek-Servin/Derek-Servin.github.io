@@ -2034,16 +2034,7 @@ input, select, textarea {
 				color: #ffffff !important;
 			}
 
-			.icon-container {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				height: 100vh;
-			}
 			
-			.zoom-icon {
-				transition: transform 0.2s;
-			}
 
 /* Form */
 
@@ -3882,7 +3873,7 @@ input, select, textarea {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
     #wrapper {
         max-width: calc(100% - 2em);
     }

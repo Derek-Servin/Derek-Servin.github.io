@@ -27,6 +27,20 @@
 			}, 100);
 		});
 
+		const zoomIcon = document.querySelector('.zoom-icon');
+		let scale = 1;
+		const ZOOM_SPEED = 0.1;
+		
+		window.addEventListener('scroll', () => {
+			if (window.scrollY > 0) {
+				scale += ZOOM_SPEED;
+			} else {
+				scale = Math.max(1, scale - ZOOM_SPEED);
+			}
+			zoomIcon.style.transform = `scale(${scale})`;
+		});
+
+
 	// Nav.
 		var $nav = $('#nav');
 

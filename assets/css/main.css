@@ -2034,6 +2034,17 @@ input, select, textarea {
 				color: #ffffff !important;
 			}
 
+			.icon-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+			
+			.zoom-icon {
+				transition: transform 0.2s;
+			}
+
 /* Form */
 
 	form {

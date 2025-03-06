@@ -4,7 +4,7 @@ title: 'Founder and Adminstrator'
 company: "D's Homework Help"
 location: 'Boston, MA'
 range: 'June 2018 - Present'
-url: 'https://starry.com/'
+url: 'https://sites.google.com/site/daedalushelppage/home-dhwh'
 ---
 
 - Created a comprehensive, ad-free educational resource platform.

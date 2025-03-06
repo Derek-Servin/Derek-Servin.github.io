@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://derek-servin.github.io/sitemap.xml
+Host: https://derek-servin.github.io

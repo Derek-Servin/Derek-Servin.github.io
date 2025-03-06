@@ -1,11 +1,17 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
-  "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "name": "v2",
+  "description": "Personal Website V2",
+  "version": "2.0.0",
+  "author": "Derek Servin <servderek@gmail.com>",
+  "contributors": [
+    {
+      "name": "Brittany Chiang",
+      "email": "brittany.chiang@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/Derek-Servin/PersonalWebsite"
   },
   "keywords": [
     "gatsby"
@@ -58,7 +64,8 @@
     "react-helmet": "^6.1.0",
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",

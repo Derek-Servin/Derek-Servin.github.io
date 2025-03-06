@@ -1,13 +1,14 @@
 ---
-date: '2018-05-14'
-title: 'Lead Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2024-09-14'
+title: 'Chief Engineer'
+company: 'Intelligent Systems Club'
+location: 'Dearborn, MI'
+range: 'September 2021 - Present'
+url: 'http://www.iscumd.com/'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+- Worked with the design team for "Ohm" which took 6th place in the Auto-Nav Design Finals in the Intelligent Ground Vehicle Competition in 2022
+- Partook in the mechanical design and programming logic of an autonomous go-kart called Phoenix
+- Won 3rd place in the Autonomous Karting Series National Competition 2024 & Received the Danny White Engineering Award
+- As Simulation Engineer, made a twin model of the Race Track at Purdue University to run testing for our autonomus stack
+- Collaborated with other engineers of various fields to work on Project Phoenix

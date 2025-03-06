@@ -1,12 +1,11 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2019-6-10'
+title: 'Intern CAD Drafter'
+company: 'University of Michigan ITS'
+location: 'Ann Arbor, MI'
+range: 'June - July 2019'
+url: 'https://internship.its.umich.edu/interns/2019/derek-servin'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Revised and maintained sensitive technical CAD drawings of the University’s infrastructure using AutoCAD
+- Catalogued drawings in the Network Engineering database.

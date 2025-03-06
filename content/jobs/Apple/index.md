@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2022-9-15'
+title: 'FIRST Robotics Mentor'
+company: 'FIRST Robotics Competition'
+location: 'Dearborn Heights, MI'
+range: 'March 2022 - April 2023'
+url: 'https://frc6089.godaddysites.com/'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Led the robotics team 6089 as Team Captain for Annapolis High School for 2 years.
+- Designed and built robots that competed in the FIRST Robotics Competitino 2019 and qualified to enter in 2020.
+- Went back to mentor the younger generations in their competitions for 2 years
+- Taught fundementals in coding so that the future generations of the code team could teach others.

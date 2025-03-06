@@ -1,12 +1,14 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
+date: '2018-6-14'
+title: 'Founder and Adminstrator'
+company: "D's Homework Help"
 location: 'Boston, MA'
-range: 'July - December 2016'
+range: 'June 2018 - Present'
 url: 'https://starry.com/'
 ---
 
-- Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router
-- Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps
+- Created a comprehensive, ad-free educational resource platform.
+- Curated hundreds of helpful websites and tools across all core subjects
+- Ensures the site remains a valuable, cost-free resource for students, teachers, and parents.
+- Handles advertising and marketing efforts across social media platforms.
+  My goal is to reach students, teachers, and parents who can benefit from my library of educational resources. With targeted campaigns on social media, I aim to raise awareness about my website's collection of educational resources.

@@ -135,10 +135,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Derek and I enjoy making robots come to life. My interest in
+              robotics started back in 2018 when I decided to try joining my High School robotics
+              club — who knew that this would be the start of my robotics journey.
             </p>
 
             <p>
@@ -146,10 +145,14 @@ const About = () => {
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
               <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. As a
+              senior Robotics Engineering student at the University of Michigan-Dearborn, I am
+              passionate about leveraging advanced technology to create innovative solutions in
+              automation and robotics. My academic journey has equipped me with a solid foundation
+              through hands-on projects. I've competed in national robotics competitions, conducted
+              autonomous robotics research, and currently serve on the executive board of the
+              Intelligent Systems Club. I'm passionate about photography and web design, bringing
+              creativity and technical expertise to each project.
             </p>
 
             <p>

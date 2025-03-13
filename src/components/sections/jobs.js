@@ -12,14 +12,13 @@ const StyledJobsSection = styled.section`
 
   .inner {
     display: flex;
+    flex-wrap: wrap; /* Allow wrapping of elements */
+    justify-content: space-between;
+    gap: 20px;
 
     @media (max-width: 600px) {
-      display: block;
-    }
-
-    // Prevent container from jumping
-    @media (min-width: 700px) {
-      min-height: 340px;
+      display: block; /* Stack the content vertically on small screens */
+      gap: 10px; /* Reduce gap for smaller screens */
     }
   }
 `;
@@ -34,14 +33,14 @@ const StyledTabList = styled.div`
 
   @media (max-width: 600px) {
     display: flex;
-    overflow-x: auto;
-    width: calc(100% + 100px);
+    overflow-x: auto; /* Make the tabs horizontally scrollable */
+    width: 100%; /* Allow the tabs to span full width */
     padding-left: 50px;
     margin-left: -50px;
     margin-bottom: 30px;
   }
   @media (max-width: 480px) {
-    width: calc(100% + 50px);
+    width: 100%;
     padding-left: 25px;
     margin-left: -25px;
   }
@@ -162,6 +161,13 @@ const StyledTabPanel = styled.div`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
   }
+
+  @media (max-width: 600px) {
+    padding: 10px 5px;
+    h3 {
+      font-size: var(--fz-xl); /* Adjust font size for mobile */
+    }
+  }
 `;
 
 const Jobs = () => {
@@ -208,20 +214,16 @@ const Jobs = () => {
       tabs.current[tabFocus].focus();
       return;
     }
-    // If we're at the end, go to the start
     if (tabFocus >= tabs.current.length) {
       setTabFocus(0);
     }
-    // If we're at the start, move to the end
     if (tabFocus < 0) {
       setTabFocus(tabs.current.length - 1);
     }
   };
 
-  // Only re-run the effect if tabFocus changes
   useEffect(() => focusTab(), [tabFocus]);
 
-  // Focus on tabs when using up & down arrow keys
   const onKeyDown = e => {
     switch (e.key) {
       case KEY_CODES.ARROW_UP: {
@@ -261,8 +263,7 @@ const Jobs = () => {
                   role="tab"
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
-                  aria-controls={`panel-${i}`}
-                >
+                  aria-controls={`panel-${i}`}>
                   <span>{company}</span>
                 </StyledTabButton>
               );
@@ -284,8 +285,7 @@ const Jobs = () => {
                     tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
-                    hidden={activeTabId !== i}
-                  >
+                    hidden={activeTabId !== i}>
                     <h3>
                       <span>{title}</span>
                       <span className="company">

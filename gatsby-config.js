@@ -9,7 +9,7 @@ module.exports = {
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
-  pathPrefix: `/repository-name`,
+  pathPrefix: `/Derek-Servin.github.io`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -30,7 +30,7 @@ module.exports = {
         icon: 'src/images/logo.png',
       },
     },
-    `gatsby-plugin-offline`,
+    //`gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
